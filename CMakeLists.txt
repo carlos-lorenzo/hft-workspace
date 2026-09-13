@@ -24,4 +24,5 @@ include(cmake/Dependencies.cmake)
 add_subdirectory(projects/01_fixed_ring_buffer)
 add_subdirectory(projects/02_fixed_object_pool)
 add_subdirectory(projects/03_order_book_l2)
+add_subdirectory(projects/04_stl_vector)
 # add_subdirectory(projects/02_market_data_parser) # Example for future modules

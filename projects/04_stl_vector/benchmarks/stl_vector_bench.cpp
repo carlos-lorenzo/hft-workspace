@@ -1,8 +1,7 @@
 #include <benchmark/benchmark.h>
 #include <array>
-#include <order_book_l2.hpp>
+#include <stl_vector.hpp>
 
-struct MockOrder { uint64_t id; double price; uint32_t qty; };
 constexpr size_t capacity = 1024;
 
 static void BM_RingBuffer_PushPop(benchmark::State& state) {
