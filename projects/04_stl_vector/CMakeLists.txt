@@ -4,8 +4,10 @@ target_include_directories(stl_vector INTERFACE include/)
 
 # Test Executable
 add_executable(test_stl_vector tests/stl_vector_test.cpp)
-target_link_libraries(test_stl_vector PRIVATE stl_vector GTest::gtest_main)
+# Changed "GTest::gtest_main" to "gtest_main"
+target_link_libraries(test_stl_vector PRIVATE stl_vector gtest_main)
 
 # Benchmark Executable
 add_executable(bench_stl_vector benchmarks/stl_vector_bench.cpp)
-target_link_libraries(bench_stl_vector PRIVATE stl_vector benchmark::benchmark)
+# Changed "benchmark::benchmark" to "benchmark"
+target_link_libraries(bench_stl_vector PRIVATE stl_vector benchmark)

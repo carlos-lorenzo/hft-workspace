@@ -7,6 +7,8 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
+set(BENCHMARK_ENABLE_TESTING OFF CACHE BOOL "" FORCE)
+
 # Fetch Google Benchmark centrally
 FetchContent_Declare(
   googlebenchmark

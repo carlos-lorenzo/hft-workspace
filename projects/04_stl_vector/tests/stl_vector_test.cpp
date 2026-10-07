@@ -12,12 +12,12 @@ struct Vector3
     Vector3(float x, float y, float z) : x_(x), y_(y), z_(z) {}
     Vector3(const Vector3& other) : x_(other.x_), y_(other.y_), z_(other.z_)
     {
-        std::cout << "Copied";
+        std::cout << "Copy constructor" << std::endl;
     }
     Vector3& operator=(const Vector3& other)
     {
         if (this == &other) return *this;
-        std::cout << "Copied" << std::endl;
+        std::cout << "Copy assignment" << std::endl;
         x_ = other.x_;
         y_ = other.y_;
         z_ = other.z_;
@@ -26,7 +26,7 @@ struct Vector3
 
     Vector3(Vector3&& other) noexcept: x_(other.x_), y_(other.y_), z_(other.z_)
     {
-        std::cout << "Moved" << std::endl;
+        std::cout << "Move constructor" << std::endl;
         other.x_ = 0;
         other.y_ = 0;
         other.z_ = 0;
@@ -35,7 +35,7 @@ struct Vector3
     Vector3& operator=(Vector3&& other) noexcept
     {
         if (this == &other) return *this;
-        std::cout << "Moved" << std::endl;
+        std::cout << "Move assignment" << std::endl;
         x_ = other.x_;
         y_ = other.y_;
         z_ = other.z_;
@@ -58,39 +58,72 @@ static bool operator==(const Vector3& lhs, const Vector3& rhs)
     return lhs.x_ == rhs.x_ && lhs.y_ == rhs.y_ && lhs.z_ == rhs.z_;
 }
 
-static std::ostream& operator<<(std::ostream& os, const Vector3& vector)
-{
-    os << vector.x_ << " " << vector.y_ << " " << vector.z_;
-    return os;
+// static std::ostream& operator<<(std::ostream& os, const Vector3& vector)
+// {
+//     os << vector.x_ << " " << vector.y_ << " " << vector.z_;
+//     return os;
+// }
+
+
+TEST(STLVectorTest, DefaultConstructor) {
+
+    Vector<Vector3> vector;
+    EXPECT_EQ(vector.size(), 0);
 }
 
-
-TEST(STLVectorTest, Constructors) {
-
-    Vector<Vector3> my_vector1;
-    EXPECT_EQ(my_vector1.size(), 0);
-    EXPECT_EQ(my_vector1.capacity(), 0);
-
-    Vector<Vector3> my_vector2(1);
-    EXPECT_EQ(my_vector2.size(), 1);
-    EXPECT_EQ(my_vector2.capacity(), 1);
-
-    Vector<Vector3> my_vector3(5, {5, 5, 5});
-    EXPECT_EQ(my_vector3.size(), 5);
-    EXPECT_EQ(my_vector3.capacity(), 5);
-    Vector3 test_vector3 {5, 5, 5};
-    EXPECT_TRUE(my_vector3[0] == test_vector3);
-
-    std::cout << my_vector3[0] << std::endl;
+TEST(STLVectorTest, SizedConstruction) {
+    Vector<Vector3> vector(5, {1, 2, 3});
+    EXPECT_EQ(vector.size(), 5);
+    EXPECT_EQ(vector.capacity(), 5);
+    EXPECT_EQ(vector[0], Vector3(1, 2, 3));
 }
 
-TEST(STLVectorTest, Reallocation) {
-    Vector<float> my_vector1(5, 1);
-    my_vector1.push_back(1);
-    Vector<float> my_vector2{std::move(my_vector1)};
-    std::cout << my_vector2[0] << std::endl;
-
+TEST(STLVectorTest, InitializerListConstruction) {
+    Vector<Vector3> vector{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    EXPECT_EQ(vector.size(), 3);
+    EXPECT_EQ(vector.capacity(), 3);
+    EXPECT_EQ(vector[0], Vector3(1, 2, 3));
+    EXPECT_EQ(vector[1], Vector3(4, 5, 6));
+    EXPECT_EQ(vector[2], Vector3(7, 8, 9));
 }
 
-TEST(STLVectorTest, Deletion) {
+TEST(STLVectorTest, Semantics) {
+    Vector<Vector3> vector;
+    vector.reserve(5);
+    vector.emplace_back(1, 2, 3);
+    EXPECT_EQ(vector.size(), 1);
+    EXPECT_EQ(vector.capacity(), 5);
+    auto vector2(vector);
+    EXPECT_EQ(vector2.size(), 1);
+    EXPECT_EQ(vector2.capacity(), 1);
+
+
+    auto vector3(std::move(vector2));
+    EXPECT_EQ(vector3.size(), 1);
+    EXPECT_EQ(vector3.capacity(), 1);
+}
+
+TEST(STLVectorTest, Assignment) {
+    Vector<Vector3> vector;
+    vector.reserve(5);
+    vector.emplace_back(1, 2, 3);
+    EXPECT_EQ(vector.size(), 1);
+    EXPECT_EQ(vector.capacity(), 5);
+    EXPECT_EQ(vector[0], Vector3(1, 2, 3));
+
+    auto vector2 = std::move(vector);
+    EXPECT_EQ(vector2.size(), 1);
+    EXPECT_EQ(vector2.capacity(), 5);
+}
+
+TEST(STLVectorTest, Resize) {
+    Vector<Vector3> vector;
+    vector.reserve(5);
+    vector.emplace_back(1, 2, 3);
+    EXPECT_EQ(vector.size(), 1);
+    EXPECT_EQ(vector.capacity(), 5);
+    EXPECT_EQ(vector[0], Vector3(1, 2, 3));
+    vector.shrink_to_fit();
+    EXPECT_EQ(vector.size(), 1);
+
 }

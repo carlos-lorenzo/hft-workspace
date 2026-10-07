@@ -6,6 +6,11 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -18,82 +23,49 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="htf_workspace" targetName="benchmark_test" />
       <config projectName="htf_workspace" targetName="bench_fixed_ring_buffer" />
-      <config projectName="htf_workspace" targetName="bench_stl_vector" />
-      <config projectName="htf_workspace" targetName="repetitions_test" />
-      <config projectName="htf_workspace" targetName="complexity_test" />
-      <config projectName="htf_workspace" targetName="map_test" />
-      <config projectName="htf_workspace" targetName="benchmark" />
-      <config projectName="htf_workspace" targetName="basic_test" />
-      <config projectName="htf_workspace" targetName="display_aggregates_only_test" />
-      <config projectName="htf_workspace" targetName="perf_counters_gtest" />
-      <config projectName="htf_workspace" targetName="gmock" />
-      <config projectName="htf_workspace" targetName="benchmark_min_time_flag_iters_test" />
-      <config projectName="htf_workspace" targetName="templated_fixture_test" />
-      <config projectName="htf_workspace" targetName="min_time_parse_gtest" />
-      <config projectName="htf_workspace" targetName="bench_fixed_object_pool" />
-      <config projectName="htf_workspace" targetName="spec_arg_test" />
-      <config projectName="htf_workspace" targetName="filter_test" />
-      <config projectName="htf_workspace" targetName="register_benchmark_test" />
-      <config projectName="htf_workspace" targetName="gmock_main" />
-      <config projectName="htf_workspace" targetName="benchmark_name_gtest" />
-      <config projectName="htf_workspace" targetName="skip_with_error_test" />
-      <config projectName="htf_workspace" targetName="gtest_main" />
-      <config projectName="htf_workspace" targetName="benchmark_gtest" />
-      <config projectName="htf_workspace" targetName="user_counters_thousands_test" />
-      <config projectName="htf_workspace" targetName="fixture_test" />
-      <config projectName="htf_workspace" targetName="reporter_output_test" />
-      <config projectName="htf_workspace" targetName="benchmark_setup_teardown_test" />
-      <config projectName="htf_workspace" targetName="cxx03_test" />
-      <config projectName="htf_workspace" targetName="link_main_test" />
-      <config projectName="htf_workspace" targetName="spec_arg_verbosity_test" />
-      <config projectName="htf_workspace" targetName="test_order_book_l2" />
-      <config projectName="htf_workspace" targetName="user_counters_test" />
-      <config projectName="htf_workspace" targetName="donotoptimize_test" />
-      <config projectName="htf_workspace" targetName="string_util_gtest" />
-      <config projectName="htf_workspace" targetName="args_product_test" />
-      <config projectName="htf_workspace" targetName="options_test" />
-      <config projectName="htf_workspace" targetName="bench_order_book_l2" />
-      <config projectName="htf_workspace" targetName="perf_counters_test" />
       <config projectName="htf_workspace" targetName="test_fixed_ring_buffer" />
-      <config projectName="htf_workspace" targetName="multiple_ranges_test" />
-      <config projectName="htf_workspace" targetName="benchmark_random_interleaving_gtest" />
-      <config projectName="htf_workspace" targetName="user_counters_tabular_test" />
-      <config projectName="htf_workspace" targetName="time_unit_gtest" />
+      <config projectName="htf_workspace" targetName="bench_stl_vector" />
+      <config projectName="htf_workspace" targetName="gmock_main" />
+      <config projectName="htf_workspace" targetName="benchmark" />
       <config projectName="htf_workspace" targetName="benchmark_main" />
+      <config projectName="htf_workspace" targetName="gtest_main" />
       <config projectName="htf_workspace" targetName="test_stl_vector" />
-      <config projectName="htf_workspace" targetName="diagnostics_test" />
-      <config projectName="htf_workspace" targetName="output_test_helper" />
-      <config projectName="htf_workspace" targetName="internal_threading_test" />
-      <config projectName="htf_workspace" targetName="report_aggregates_only_test" />
-      <config projectName="htf_workspace" targetName="memory_manager_test" />
-      <config projectName="htf_workspace" targetName="statistics_gtest" />
-      <config projectName="htf_workspace" targetName="benchmark_min_time_flag_time_test" />
+      <config projectName="htf_workspace" targetName="test_order_book_l2" />
+      <config projectName="htf_workspace" targetName="gmock" />
+      <config projectName="htf_workspace" targetName="bench_naive_orderbook_l3" />
+      <config projectName="htf_workspace" targetName="test_naive_orderbook_l3" />
       <config projectName="htf_workspace" targetName="test_fixed_object_pool" />
+      <config projectName="htf_workspace" targetName="bench_fixed_object_pool" />
+      <config projectName="htf_workspace" targetName="bench_order_book_l2" />
       <config projectName="htf_workspace" targetName="gtest" />
-      <config projectName="htf_workspace" targetName="commandlineflags_gtest" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-event-trace" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="--profiling-format=google-trace --profiling-output=CMakeFiles/clion-event-trace.json" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="927ba282-4700-43c8-a169-15d7e36f13a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/04_stl_vector/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/04_stl_vector/benchmarks/stl_vector_bench.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/04_stl_vector/include/stl_vector.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/04_stl_vector/tests/stl_vector_test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hft-workspace.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hft-workspace.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/05_naive_orderbook_l3/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/05_naive_orderbook_l3/benchmarks/naive_orderbook_l3_bench.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/05_naive_orderbook_l3/include/naive_orderbook_l3.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/05_naive_orderbook_l3/tests/naive_orderbook_l3_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/Dependencies.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/Dependencies.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04_stl_vector/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/projects/04_stl_vector/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04_stl_vector/include/stl_vector.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/projects/04_stl_vector/include/stl_vector.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04_stl_vector/tests/stl_vector_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/projects/04_stl_vector/tests/stl_vector_test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +75,12 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/home/carlos/dev/hft-workspace" value="3JHVnveKZ73eWJ8XcAxiEE2q9o6" />
+    </persistenceIdMap>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -184,6 +161,21 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3J5Egs3vxY6eJbBCOIMG5lbOaTk" />
+  <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="InlineAgent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectStatusUIService">{
   &quot;uiKindId&quot;: &quot;Widget&quot;
 }</component>
@@ -191,107 +183,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
-    &quot;Google Test.test_order_book_l2.executor&quot;: &quot;Debug&quot;,
-    &quot;Google Test.test_stl_vector.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/carlos/dev/hft-workspace/projects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;cidr.DebugProfilesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "CMake Application.bench_fixed_ring_buffer.executor": "Debug",
+    "CMake Application.bench_naive_orderbook_l3.executor": "Debug",
+    "CMake Application.bench_order_book_l2.executor": "Debug",
+    "CMake Application.bench_stl_vector.executor": "Debug",
+    "CMake Debug.htf_workspace.executor": "Debug",
+    "CidrDebugProfileConversion": "true",
+    "Google Test.test_naive_orderbook_l3.executor": "Debug",
+    "Google Test.test_order_book_l2.executor": "Debug",
+    "Google Test.test_stl_vector.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/carlos/dev/neurodaq-env/neurodaq-firmware",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.test_stl_vector">
+  <component name="RunManager" selected="CMake Application.bench_naive_orderbook_l3">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="benchmark_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="benchmark_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="benchmark_gtest" TEST_MODE="SUITE_TEST">
+    <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_fixed_object_pool" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="test_fixed_object_pool" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_fixed_ring_buffer" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="test_fixed_ring_buffer" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_naive_orderbook_l3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="test_naive_orderbook_l3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="test_naive_orderbook_l3" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="benchmark_name_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="benchmark_name_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="benchmark_name_gtest" TEST_MODE="SUITE_TEST">
+    <configuration name="test_order_book_l2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="test_order_book_l2" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="benchmark_random_interleaving_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="benchmark_random_interleaving_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="benchmark_random_interleaving_gtest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="commandlineflags_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="commandlineflags_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="commandlineflags_gtest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="min_time_parse_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="min_time_parse_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="min_time_parse_gtest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="perf_counters_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="perf_counters_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="perf_counters_gtest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="statistics_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="statistics_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="statistics_gtest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string_util_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="string_util_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="string_util_gtest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_fixed_object_pool" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="test_fixed_object_pool" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="test_fixed_object_pool" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_fixed_ring_buffer" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="test_fixed_ring_buffer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="test_fixed_ring_buffer" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_order_book_l2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="test_order_book_l2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="test_order_book_l2" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
@@ -301,21 +280,8 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="time_unit_gtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="time_unit_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="time_unit_gtest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="args_product_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="args_product_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="args_product_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="basic_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="basic_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="basic_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
+    <configuration name="htf_workspace" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
     </configuration>
     <configuration name="bench_fixed_object_pool" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="bench_fixed_object_pool" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="bench_fixed_object_pool">
       <method v="2">
@@ -323,6 +289,11 @@
       </method>
     </configuration>
     <configuration name="bench_fixed_ring_buffer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="bench_fixed_ring_buffer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="bench_fixed_ring_buffer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bench_naive_orderbook_l3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="bench_naive_orderbook_l3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="bench_naive_orderbook_l3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -347,61 +318,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="benchmark_min_time_flag_iters_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="benchmark_min_time_flag_iters_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="benchmark_min_time_flag_iters_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="benchmark_min_time_flag_time_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="benchmark_min_time_flag_time_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="benchmark_min_time_flag_time_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="benchmark_setup_teardown_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="benchmark_setup_teardown_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="benchmark_setup_teardown_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="benchmark_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="benchmark_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="benchmark_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="complexity_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="complexity_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="complexity_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cxx03_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="cxx03_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="cxx03_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="diagnostics_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="diagnostics_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="diagnostics_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="display_aggregates_only_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="display_aggregates_only_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="display_aggregates_only_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="donotoptimize_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="donotoptimize_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="donotoptimize_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="filter_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="filter_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="filter_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fixture_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="fixture_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="fixture_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -422,158 +338,30 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="internal_threading_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="internal_threading_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="internal_threading_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="link_main_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="link_main_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="link_main_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="map_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="map_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="map_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="memory_manager_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="memory_manager_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="memory_manager_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="multiple_ranges_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="multiple_ranges_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="multiple_ranges_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="options_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="options_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="options_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="output_test_helper" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="output_test_helper" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="perf_counters_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="perf_counters_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="perf_counters_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="register_benchmark_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="register_benchmark_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="register_benchmark_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="repetitions_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="repetitions_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="repetitions_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="report_aggregates_only_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="report_aggregates_only_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="report_aggregates_only_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="reporter_output_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="reporter_output_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="reporter_output_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="skip_with_error_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="skip_with_error_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="skip_with_error_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="spec_arg_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="spec_arg_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="spec_arg_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="spec_arg_verbosity_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="spec_arg_verbosity_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="spec_arg_verbosity_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="templated_fixture_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="templated_fixture_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="templated_fixture_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="user_counters_tabular_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="user_counters_tabular_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="user_counters_tabular_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="user_counters_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="user_counters_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="user_counters_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="user_counters_thousands_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="htf_workspace" TARGET_NAME="user_counters_thousands_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="htf_workspace" RUN_TARGET_NAME="user_counters_thousands_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="CMake Application.bench_fixed_object_pool" />
+      <item itemvalue="CMake Application.bench_fixed_ring_buffer" />
+      <item itemvalue="CMake Application.bench_naive_orderbook_l3" />
+      <item itemvalue="CMake Application.bench_order_book_l2" />
+      <item itemvalue="CMake Application.bench_stl_vector" />
       <item itemvalue="CMake Application.benchmark" />
       <item itemvalue="CMake Application.benchmark_main" />
-      <item itemvalue="CMake Application.args_product_test" />
-      <item itemvalue="CMake Application.basic_test" />
-      <item itemvalue="CMake Application.benchmark_min_time_flag_iters_test" />
-      <item itemvalue="CMake Application.benchmark_min_time_flag_time_test" />
-      <item itemvalue="CMake Application.benchmark_setup_teardown_test" />
-      <item itemvalue="CMake Application.benchmark_test" />
-      <item itemvalue="CMake Application.complexity_test" />
-      <item itemvalue="CMake Application.cxx03_test" />
-      <item itemvalue="CMake Application.diagnostics_test" />
-      <item itemvalue="CMake Application.display_aggregates_only_test" />
-      <item itemvalue="CMake Application.donotoptimize_test" />
-      <item itemvalue="CMake Application.filter_test" />
-      <item itemvalue="CMake Application.fixture_test" />
-      <item itemvalue="CMake Application.internal_threading_test" />
-      <item itemvalue="CMake Application.link_main_test" />
-      <item itemvalue="CMake Application.map_test" />
-      <item itemvalue="CMake Application.memory_manager_test" />
-      <item itemvalue="CMake Application.multiple_ranges_test" />
-      <item itemvalue="CMake Application.options_test" />
-      <item itemvalue="CMake Application.output_test_helper" />
-      <item itemvalue="CMake Application.perf_counters_test" />
-      <item itemvalue="CMake Application.register_benchmark_test" />
-      <item itemvalue="CMake Application.repetitions_test" />
-      <item itemvalue="CMake Application.report_aggregates_only_test" />
-      <item itemvalue="CMake Application.reporter_output_test" />
-      <item itemvalue="CMake Application.skip_with_error_test" />
-      <item itemvalue="CMake Application.spec_arg_test" />
-      <item itemvalue="CMake Application.spec_arg_verbosity_test" />
-      <item itemvalue="CMake Application.templated_fixture_test" />
-      <item itemvalue="CMake Application.user_counters_tabular_test" />
-      <item itemvalue="CMake Application.user_counters_test" />
-      <item itemvalue="CMake Application.user_counters_thousands_test" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
-      <item itemvalue="CMake Application.bench_fixed_ring_buffer" />
-      <item itemvalue="CMake Application.bench_fixed_object_pool" />
-      <item itemvalue="CMake Application.bench_order_book_l2" />
-      <item itemvalue="CMake Application.bench_stl_vector" />
-      <item itemvalue="Google Test.benchmark_gtest" />
-      <item itemvalue="Google Test.benchmark_name_gtest" />
-      <item itemvalue="Google Test.benchmark_random_interleaving_gtest" />
-      <item itemvalue="Google Test.commandlineflags_gtest" />
-      <item itemvalue="Google Test.min_time_parse_gtest" />
-      <item itemvalue="Google Test.perf_counters_gtest" />
-      <item itemvalue="Google Test.statistics_gtest" />
-      <item itemvalue="Google Test.string_util_gtest" />
-      <item itemvalue="Google Test.time_unit_gtest" />
-      <item itemvalue="Google Test.test_fixed_ring_buffer" />
+      <item itemvalue="CMake Debug.htf_workspace" />
       <item itemvalue="Google Test.test_fixed_object_pool" />
+      <item itemvalue="Google Test.test_fixed_ring_buffer" />
+      <item itemvalue="Google Test.test_naive_orderbook_l3" />
       <item itemvalue="Google Test.test_order_book_l2" />
       <item itemvalue="Google Test.test_stl_vector" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Debug.htf_workspace" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SelectedDebugProfileService">{
   &quot;profileIdByStamp&quot;: [
@@ -608,6 +396,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788942644289</updated>
+      <workItem from="1789305017803" duration="1232000" />
+      <workItem from="1789306259106" duration="11779000" />
+      <workItem from="1789574496783" duration="8000" />
+      <workItem from="1789574574831" duration="5000" />
+      <workItem from="1790077481470" duration="1843000" />
+      <workItem from="1790099048443" duration="5471000" />
+      <workItem from="1790150092848" duration="15000" />
+      <workItem from="1790192486097" duration="1364000" />
+      <workItem from="1790193860396" duration="973000" />
+      <workItem from="1790418333554" duration="391000" />
+      <workItem from="1790536599560" duration="914000" />
+      <workItem from="1790624520135" duration="2045000" />
+      <workItem from="1790801245354" duration="14000" />
+      <workItem from="1790963734543" duration="3490000" />
+      <workItem from="1791316659769" duration="313000" />
+      <workItem from="1791360497788" duration="2970000" />
     </task>
     <servers />
   </component>
